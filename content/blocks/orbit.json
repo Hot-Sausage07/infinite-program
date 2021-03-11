@@ -1,0 +1,30 @@
+{
+	"localizedName": "Orbit",
+	"description": "Shoots an piercing ball of light.",
+	"health": 2250,
+	"size": 3,
+	"reloadTime": 200,
+	"range": 375,
+	"shootCone": 30,
+	"heatColor": "CCFFFF",
+	"ammoUseEffect": "none",
+	"shots": 5,
+	"burstSpacing": 0,
+	"spread": 0,
+	"inaccuracy": 2,
+	"rotateSpeed": 5.5,
+	"recoilAmount": 1,
+	"powerUse": 6.4,
+	"hasPower": true,
+	"targetAir": true,
+	"shootSound": "laser",
+	"cooldown": 0.01,
+	"requirements": [
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "copper", "amount": 470 },
+		{ "item": "lead", "amount": 450 },
+		{ "item": "titanium", "amount": 310 }
+	],
+	"category": "turret",
+	"research": "lancer"
+}
