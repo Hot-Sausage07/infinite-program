@@ -1,6 +1,6 @@
 /*
 * Shortcuts for common draw methods used in effects.
-* Lib by JerichoFletcher extended and modified xXZenGamingXx
+* Lib by JerichoFletcher extended and modified xXZenGamingXx  modified pankiwi ;)
 */
 /*
 * [Notes]
@@ -156,4 +156,16 @@ module.exports = {
 			Drawf.tri(x, y, size * inOutii, (size * lengthMultiplier) * inOutii, i * step + rotation);
 		};
 	},
+	ChargerCircle(x,y,colorFrom,ColorTo,inOut,radio,InOutFill){
+	Draw.color(colorFrom,ColorTo,inOut)
+	Lines.stroke(InOutFill * radio * 2)
+	Lines.circle(x,y,radio)
+	Lines.stroke(1)
+	},
+	ChargerSquad(x, y, colorFrom, ColorTo, inOut, radio, rot , InOutFill) {
+	  Draw.color(colorFrom,ColorTo,inOut)
+	  Lines.stroke(InOutFill * radio * 2)
+	  Lines.square(x, y, radio, rot)
+	  Lines.stroke(1)
+	}
 }

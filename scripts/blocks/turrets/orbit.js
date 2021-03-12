@@ -4,9 +4,7 @@ const dlib = require("infiniteprogram/libs/drawlib");
 
 //Effect
 
-const orbEffect = new Effect(25, e => {
-    dlib.splashlineii(e.x, e.y, Color.valueOf("abdbff"), Color.valueOf("f0f8ff"), e.fin(), e.fout() * 4.725, e.fslope() * 22 + 20, e.id, 1, 1 + 0 * e.fin(), e.rotation, 0);
-});
+
 
 const chargeEffect = elib.swillEffect(30, Color.valueOf("abdbff"), Color.valueOf("f0f8ff"), 1, 6, 5, 3, 1, 20, 120);
 
@@ -18,24 +16,29 @@ const chargeEffectBegin = new Effect(60, e => {
 
 //Bullet
 const orbBullet = extend(MissileBulletType, {
-  lifetime : 95,
-  despawnEffect : Fx.none,
-  hitEffect : Fx.none,
+  lifetime : 100,
+  despawnEffect : Fx.hitLancer,
+  hitEffect : Fx.lancerLaserShoot,
   speed : 7.125,
-  damage : 50,
+  damage : 60,
   shootEffect : Fx.lightningShoot,
   pierce : false,
+  init(b){
+    if(!b)return
+    b.data = new Trail(15)
+  },
   update(b) {
-    var target = Units.bestTarget(b.team, b.x, b.y, 600, e => !e.dead && (e.isGrounded() && true) || (e.isFlying() && true), b => true, (u, x, y) => Mathf.dst2(x, y, u.x, u.y));
+    var target = Units.bestTarget(b.team, b.x, b.y, 200, e => !e.dead && (e.isGrounded() && true) || (e.isFlying() && true), b => true, (u, x, y) => Mathf.dst2(x, y, u.x, u.y));
     if (target != null) {
-      b.vel.setAngle(Mathf.slerpDelta(b.rotation(), b.angleTo(target), 0.6));
+      b.vel.setAngle(Mathf.slerpDelta(b.rotation(), b.angleTo(target),0.09));
     };
-        if (b.timer.get(1, 0.00001)) {
-      orbEffect.at(b.x, b.y - 5, b.rotation(), Color.valueOf("C2FF8300"));
-    };
+
+     b.data.update(b.x,b.y)
     
   },
-  draw(b) {}
+  draw(b) {
+    b.data.draw(Color.valueOf("abdbff"), 2 + b.fslope() * 3)
+  }
 });
 
 
