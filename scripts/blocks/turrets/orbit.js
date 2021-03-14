@@ -54,6 +54,3 @@ const orbit = extendContent(PowerTurret, "orbit", {
   chargeEffect : chargeEffect,
   chargeBeginEffect : chargeEffectBegin
 });
-if(Mathf.chance(0.02)){
-code
-}
