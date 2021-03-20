@@ -1,0 +1,37 @@
+{
+"type": "UnitFactory",
+"description": "creates additional units",
+"name": "Era Factory",
+"buildVisibility": "shown",
+"size": 3,
+"consumes": {
+"power": 100
+},
+"plans": [
+  {
+    "unit": "seo",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "titanium", "amount": 50},
+        {"item": "metaglass", "amount": 50}
+        ],
+    "time": 400
+  }
+],
+  "requirements": [
+    {
+      "item": "silicon",
+      "amount": 800
+    },
+    {
+      "item": "copper",
+      "amount": 600
+    },
+    {
+      "item": "lead",
+      "amount": 700
+    }
+  ],
+"category": "units",
+"research": "ground-factory"
+}
