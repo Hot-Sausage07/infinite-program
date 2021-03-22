@@ -1,0 +1,41 @@
+{
+  "name": "Seo",
+  "Description":"shoots arc,fly fast",
+  "type":"flying",
+  "flying": true,
+  "speed": 3,
+  "drag": 1,
+  "armor": 1,
+  "engineOffset": 5,
+  "targetAir": true,
+  "hitSize": 2,
+  "health": 300,
+  "accel": 1,
+  "weapons": [
+    {
+      "name": "seo-weapon",
+      "reload": 38,
+      "top": true,
+      "mirror": false,
+      "x": 0,
+      "y": -1.5,
+      "shootY": 2,
+      "recoil": 1.5,
+      "shake": 1,
+      "rotateSpeed": 1,
+      "rotate": true,
+      "shots": 2,
+      "shootSound": "spark",
+      "shootCone": 45,
+      "bullet": {
+        "type": "LightningBulletType",
+        "damage": 6,
+        "frontColor": "42d4f5",
+               "backColor": "5366a6",
+        "lightning": 1,
+         "lightningLength": 10
+      }
+    }
+  ]
+}
+  

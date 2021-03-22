@@ -1,0 +1,31 @@
+{
+    "type": "Reconstructor",
+    "name": "Yesod Reconstructor",
+    "size": 3,
+    "health": 1000,
+    "description": "upgrads units",
+    "constructTime": 670,
+    "upgrades": [
+      [
+        "seo", "xender"
+      ]
+    ],
+    "consumes": {
+    "items":{
+      "items": [
+      { "item": "silicon", "amount": 80 },
+      { "item": "titanium", "amount": 55 },
+      { "item": "thorium", "amount": 40 }
+      ]
+    },
+      "power": 5
+    },
+    "category": "units",
+    "research": "era-factory",
+    "requirements": [
+     { "item": "silicon", "amount": 215 },
+     { "item": "titanium", "amount": 200 },
+     { "item": "plastanium", "amount": 145 }
+    ]
+}
+  

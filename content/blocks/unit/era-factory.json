@@ -1,0 +1,30 @@
+{
+    "name": "Era Factory",
+    "description": "Make units in infinity program.",
+    "type": "unitFactory",
+    "health": 1500,
+    "size": 3,
+    "plans": [
+      {
+        "unit": "seo",
+        "requirements": [
+          {"item": "silicon", "amount": 65 },
+          {"item": "titanium", "amount": 75 },
+          {"item": "metaglass", "amount": 40 }
+        ],
+        "time": 450
+      }
+    ],
+    "consumes": {
+      "power": 40
+    },
+    "category": "units",
+    "research": "ground-factory",
+    "requirements": [
+      {"item": "graphite", "amount": 50 },
+      {"item": "silicon", "amount": 100 },
+      {"item": "titanium", "amount": 120 },
+      {"item": "metaglass", "amount": 150 }
+    ]
+  }
+  
