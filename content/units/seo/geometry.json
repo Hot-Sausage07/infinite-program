@@ -1,0 +1,41 @@
+{
+  "name": "Geometry",
+  "Description":"t4 unit of the seo unit tree,shoots bigger lancer laser",
+  "type":"flying",
+  "flying": true,
+  "speed": 5,
+  "drag": 1,
+  "armor": 2,
+  "engineOffset": 12,
+  "targetAir": true,
+  "hitSize": 2,
+  "health": 7600,
+  "accel": 1,
+  "weapons": [
+    {
+      "name": "geometry-weapon",
+      "reload": 0,
+      "top": true,
+      "mirror": false,
+      "x": 0,
+      "y": -1.5,
+      "shootY": 2,
+      "recoil": 1.5,
+      "shake": 1,
+      "rotateSpeed": 1,
+      "rotate": true,
+      "shots": 2,
+      "shootSound": "spark",
+      "shootCone": 45,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 10,
+        "frontColor": "42d4f5",
+               "backColor": "5366a6",
+        "length":180,
+        "width":10
+      }
+    }
+  ]
+}
+  

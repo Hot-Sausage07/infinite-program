@@ -1,0 +1,33 @@
+{
+    "type": "Reconstructor",
+    "name": "Kahi Reconstructor",
+    "size": 5,
+    "health": 4000,
+    "description": "upgrads units",
+    "constructTime": 2000,
+    "upgrades": [
+      [
+        "xender", "astro"
+      ]
+    ],
+    "consumes": {
+    "items":{
+      "items": [
+      { "item": "silicon", "amount": 80 },
+      { "item": "metaglass", "amount": 90 },
+      { "item": "thorium", "amount": 40 },
+      { "item": "lead", "amount": 100 }
+      ]
+    },
+      "power": 8
+    },
+    "category": "units",
+    "research": "yesod-reconstructor",
+    "requirements": [
+     { "item": "silicon", "amount": 215 },
+     { "item": "titanium", "amount": 200 },
+     { "item": "plastanium", "amount": 145 },
+     { "item": "thorium", "amount": 145 }
+    ]
+}
+  

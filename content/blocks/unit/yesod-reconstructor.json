@@ -13,7 +13,7 @@
     "consumes": {
     "items":{
       "items": [
-      { "item": "silicon", "amount": 80 },
+      { "item": "silicon", "amount": 30 },
       { "item": "titanium", "amount": 55 },
       { "item": "thorium", "amount": 40 }
       ]

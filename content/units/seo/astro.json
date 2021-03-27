@@ -1,0 +1,64 @@
+{
+  "name": "Astro",
+  "Description":"t3 of the seo unit tree, shoots arc and lancer",
+  "type":"flying",
+  "flying": true,
+  "speed": 5,
+  "drag": 2,
+  "armor": 2,
+  "engineOffset": 12.6,
+  "targetAir": true,
+  "hitSize": 2,
+  "health": 500,
+  "accel": 1,
+  "weapons": [
+    {
+      "name": "xender-weapon",
+      "reload": 120,
+      "top": true,
+      "mirror": false,
+      "x": 0,
+      "y": -2,
+      "shootY": 2,
+      "recoil": 1.5,
+      "shake": 0.5,
+      "rotateSpeed": 1,
+      "rotate": true,
+      "shots": 1,
+      "shootSound": "lasershoot",
+      "shootCone": 45,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 60,
+        "frontColor": "42d4f5",
+               "backColor": "5366a6",
+        "length":150
+      }
+    },
+    {
+      "name": "seo-weapon",
+      "reload": 38,
+      "top": true,
+      "mirror": true,
+      "x": 2,
+      "y": -1.5,
+      "shootY": 2,
+      "recoil": 1.5,
+      "shake": 1,
+      "rotateSpeed": 1,
+      "rotate": true,
+      "shots": 2,
+      "shootSound": "spark",
+      "shootCone": 45,
+      "bullet": {
+        "type": "LightningBulletType",
+        "damage": 10,
+        "frontColor": "42d4f5",
+               "backColor": "5366a6",
+        "lightning": 1,
+         "lightningLength": 10
+      }
+    }
+  ]
+}
+  

@@ -1,0 +1,35 @@
+{
+    "type": "Reconstructor",
+    "name": "Kahi Reconstructor",
+    "size": 7,
+    "health": 6000,
+    "description": "upgrads units",
+    "constructTime": 6000,
+    "upgrades": [
+      [
+        "astro", "geometry"
+      ]
+    ],
+    "consumes": {
+    "items":{
+      "items": [
+      { "item": "silicon", "amount": 450 },
+      { "item": "metaglass", "amount": 90 },
+      { "item": "thorium", "amount": 100 },
+      { "item": "lead", "amount": 100 },
+      { "item": "plastanium", "amount": 145 }
+      ]
+    },
+      "power": 8
+    },
+    "category": "units",
+    "research": "kahi-reconstructor",
+    "requirements": [
+     { "item": "silicon", "amount": 215 },
+     { "item": "titanium", "amount": 200 },
+     { "item": "plastanium", "amount": 145 },
+     { "item": "metaglass", "amount": 145 },
+     { "item": "thorium", "amount": 145 }
+    ]
+}
+  

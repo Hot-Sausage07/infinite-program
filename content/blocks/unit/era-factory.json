@@ -8,8 +8,8 @@
       {
         "unit": "seo",
         "requirements": [
-          {"item": "silicon", "amount": 65 },
-          {"item": "titanium", "amount": 75 },
+          {"item": "silicon", "amount": 20 },
+          {"item": "titanium", "amount": 30 },
           {"item": "metaglass", "amount": 40 }
         ],
         "time": 450
