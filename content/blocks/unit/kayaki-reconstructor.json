@@ -1,13 +1,13 @@
 {
     "type": "Reconstructor",
-    "name": "Lobotome Reconstructor",
-    "size": 7,
+    "name": "Kayaki Reconstructor",
+    "size": 9,
     "health": 6000,
-    "description": "upgrads units",
-    "constructTime": 6000,
+    "description": "maxium units",
+    "constructTime": 7000,
     "upgrades": [
       [
-        "astro", "geometry"
+        "geometry", "xeos"
       ]
     ],
     "consumes": {
@@ -16,20 +16,23 @@
       { "item": "silicon", "amount": 450 },
       { "item": "metaglass", "amount": 90 },
       { "item": "thorium", "amount": 100 },
-      { "item": "lead", "amount": 100 },
-      { "item": "plastanium", "amount": 145 }
+      { "item": "copper", "amount": 100 },
+      { "item": "lead", "amount": 600 },
+      { "item": "plastanium", "amount": 500 },
+      { "item": "surge-alloy", "amount": 145 }
       ]
     },
-      "power": 8
+      "power": 10
     },
     "category": "units",
-    "research": "kahi-reconstructor",
+    "research": "lobotome-reconstructor",
     "requirements": [
      { "item": "silicon", "amount": 215 },
      { "item": "titanium", "amount": 200 },
      { "item": "plastanium", "amount": 145 },
      { "item": "metaglass", "amount": 145 },
-     { "item": "thorium", "amount": 145 }
+     { "item": "thorium", "amount": 145 },
+     { "item": "surge-alloy", "amount": 145 }
     ]
 }
   

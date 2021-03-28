@@ -3,22 +3,68 @@
   "Description":"the final stage of the seo unit tree, shoots destructive laser to enemies",
   "type":"flying",
   "flying": true,
-  "speed": 5,
+  "speed": 2,
   "drag": 1,
   "armor": 2,
-  "engineOffset": 12,
+  "engineOffset": 17,
   "targetAir": true,
   "hitSize": 2,
   "health": 7600,
   "accel": 1,
   "weapons": [
     {
-      "name": "geometry-weapon",
-      "reload": 80,
+      "name": "cooldown-laser",
+      "reload": 200,
       "top": true,
       "mirror": false,
-      "x": 2,
-      "y": -1.5,
+      "x": 0,
+      "y": 2,
+      "shootY": 2,
+      "recoil": 2,
+      "shake": 4,
+      "rotateSpeed": 0,
+      "rotate": true,
+      "shots": 1,
+      "shootSound": "lasershoot",
+      "shootCone": 45,
+      "bullet": {
+        "type": "ContinuousLaserBulletType",
+        "damage": 500,
+        "colors": ["698bfa", "69bbfa", "69e4fa", "ffffffff"],
+        "length":400
+      }
+    },
+    {
+      "name": "long-lancer",
+      "reload": 50,
+      "top": true,
+      "mirror": true,
+      "x": 5,
+      "y": -2,
+      "shootY": 2,
+      "recoil": 1.5,
+      "shake": 0.5,
+      "rotateSpeed": 1,
+      "rotate": true,
+      "shots": 1,
+      "shootSound": "lasershoot",
+      "shootCone": 45,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 40,
+        "frontColor": "42d4f5",
+               "backColor": "5366a6",
+        "length":400,
+        "width":5
+      }
+    },
+    {
+      "name": "arc-blaster",
+      "reload": 38,
+      "top": true,
+      "mirror": true,
+      "x": 6,
+      "y": -1,
       "shootY": 2,
       "recoil": 1.5,
       "shake": 1,
@@ -28,12 +74,12 @@
       "shootSound": "spark",
       "shootCone": 45,
       "bullet": {
-        "type": "LaserBulletType",
-        "damage": 20,
+        "type": "LightningBulletType",
+        "damage": 6,
         "frontColor": "42d4f5",
                "backColor": "5366a6",
-        "length":160,
-        "width":40
+        "lightning": 10,
+         "lightningLength": 100
       }
     }
   ]

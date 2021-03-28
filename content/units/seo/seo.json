@@ -3,7 +3,7 @@
   "Description":"shoots arc,fly fast",
   "type":"flying",
   "flying": true,
-  "speed": 3,
+  "speed": 6,
   "drag": 1,
   "armor": 1,
   "engineOffset": 5,
@@ -13,7 +13,7 @@
   "accel": 1,
   "weapons": [
     {
-      "name": "seo-weapon",
+      "name": "arc-blaster",
       "reload": 38,
       "top": true,
       "mirror": false,
