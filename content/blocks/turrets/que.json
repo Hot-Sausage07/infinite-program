@@ -1,0 +1,30 @@
+{
+	"type": "PowerTurret",
+	"name": "Que",
+	"description": "shoots long range arcs",
+	"health": 400,
+	"size": 2,
+	"reloadTime": 30,
+	"range": 200,
+	"recoilAmount": 1.5,
+	"inaccuracy": 4,
+	"shots": 2,
+	"rotatespeed": 60,
+	"shootSound": "laserBlast",
+	"shootEffect": "lightningCharge",
+	"powerUse": 15,
+	"shootType": {
+		"type": "LightningBulletType",
+		"damage": 50,
+		"frontColor": "8fe7ff",
+   	    	"backColor": "6dc6de",
+		"lightning": 1,
+		 "lightningLength": 60
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 245 },
+		{ "item": "thorium", "amount": 200 }
+	],
+	"category": "turret",
+	"research": "arc"
+}
