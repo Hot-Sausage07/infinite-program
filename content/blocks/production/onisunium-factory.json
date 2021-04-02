@@ -1,0 +1,38 @@
+{	
+    "name": "Onisunium Factory",
+	"type": "GenericSmelter",
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 30,
+	"craftTime": 150,
+	"flameColor": "9cedff",
+	"craftEffect": "lightningShoot",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{"item": "titanium", "amount": 1},
+				{"item": "surge-alloy", "amount": 1}
+				{"item": "thorium", "amount": 1}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 160},
+		{"item": "titanium", "amount": 160},
+		{"item": "thorium", "amount": 140},
+		{"item": "graphite", "amount": 140}
+		{"item": "copper", "amount": 140}
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+	"outputItem": {
+		"item": "onisunium",
+		"amount": 4
+	}
+}

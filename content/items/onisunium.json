@@ -1,0 +1,10 @@
+{    
+    "type": "material",
+    "Name": "Onisunium",
+    "hardness": 6,
+    "radioactivity": 0.2,
+    "explosivness": 0.2,
+    "cost": 6,
+    "color": "96b8d6",
+    "research": "thorium"
+}

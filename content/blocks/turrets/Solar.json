@@ -43,6 +43,9 @@
       {
         "item": "thorium",
         "amount": 320
+      },
+      { "item": "onisunium",
+        "amount": 100 
       }
     ],
     "category": "turret",
