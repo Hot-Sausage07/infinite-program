@@ -1,0 +1,56 @@
+{
+    "localizedName": "Cluster",
+    "description": "a railgun using onisunium to fire",
+	"type": "ItemTurret",
+	"size": 6,
+	"health": 3500,
+	"maxAmmo": 150,
+	"ammoPerShot" : 50,
+	"reloadTime": 150,
+	"range": 550,
+	"targetAir" : true, 
+	"targetGround" : true, 
+	"recoilAmount" : 15,
+	"shootShake" : 12,
+	"inaccuracy": 0,
+	"restitution" : 0.1,
+	"rotateSpeed": 0.6,
+	"shootSound" : "railgun",
+	"ammoTypes":	{
+		"onisunium": {
+			"type" : "railBulletType",
+			"damage": 800,
+			"length" : 400,
+			"ammoMultiplier": 3,
+			"pierce": true,
+			"collidesTiles" : false,
+			"buildingDamageMultiplier": 0.8,
+			"pierceEffect" : "railHit",
+			"updateEffect" : "railTrail",
+			"hitEffect" : "instHit",
+                        "trailEffect": "instTrail",
+			"fragBullets": 10,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"status" : "melting",
+				"lifetime": 120,
+				"speed": 0.5,
+				"damage" : 200,
+				"frontColor": "75F9F9FF",
+				"backColor": "4887CDFF"
+			}
+		}
+	},
+	"consumes" : {
+		"power": 60
+			},
+	"requirements": [
+		{ "item": "thorium", "amount": 200 },
+		{ "item": "silicon", "amount": 1000 },
+		{ "item": "surge-alloy", "amount": 290 },
+		{ "item": "metaglass", "amount": 500 },
+		{ "item": "onisunium", "amount": 500 }
+	],
+	"category": "turret",
+	"research": "foreshadow"
+}
