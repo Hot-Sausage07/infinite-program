@@ -8,6 +8,7 @@ require("infiniteprogram/blocks/turrets/turrets");
 try{
 require("blocks/turrets/orbit")
 require("blocks/turrets/Solar")
+require("blocks/reactor")
 }catch(eerr){
   print(eerr)
 }

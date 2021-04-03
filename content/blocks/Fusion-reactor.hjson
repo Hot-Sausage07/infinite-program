@@ -1,0 +1,29 @@
+name: Heat
+description: This generator 
+size: 5
+health:8000
+powerProduction: 2000
+itemDuration: 200
+consumes: {
+power: 100,
+items:{
+  items: [
+   copper/3
+  ]
+ },
+liquid: {
+  liquid: slag
+  amount: 0.1
+}
+}
+requirements: [
+  copper/120
+  titanium/180
+  silicon/100
+  graphite/120
+  metaglass/80
+]
+category: power
+research: thermal-generator
+ambientSound: smelter
+ambientSoundVolume: 0.05
