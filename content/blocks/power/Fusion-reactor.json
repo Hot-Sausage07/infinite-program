@@ -8,8 +8,13 @@
 "consumes": {
 "power": 100,
 "items":{
-      "item": "onisunium",
-      "amount": 8
+  "items":[
+    {
+            "item": "onisunium",
+            "amount": 5
+    }
+    ]
+
   },
   "liquid": {
     "liquid": "slag",
