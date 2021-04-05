@@ -1,0 +1,31 @@
+{
+"name": "arc generator",
+"description": "generate huge amount of power while generate arc",
+"size": 5,
+"health":8000,
+"powerProduction": 1000,
+"itemDuration": 200,
+"consumes": {
+"power": 100,
+"items":{
+      "item": "onisunium",
+      "amount": 8
+  },
+  "liquid": {
+    "liquid": "slag",
+    "amount": 0.1
+  }
+},
+"requirements": [
+  {"item": "titanium", "amount": 500},
+  {"item": "silicon", "amount": 600},
+  {"item": "thorium", "amount": 350},
+  {"item": "onisunium", "amount": 400},
+  {"item": "surge-alloy", "amount": 350},
+  {"item": "lead", "amount": 1000}
+],
+"category": "power",
+"research": "thermal-generator",
+"ambientSound": "smelter",
+"ambientSoundVolume": 0.05
+}
