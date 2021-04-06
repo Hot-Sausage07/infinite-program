@@ -1,6 +1,6 @@
 {
-"name": "arc generator",
-"description": "generate huge amount of power while generate arc",
+"name": "Fusion reactor",
+"description": "generate huge amount of power [red]WARNING!!! because its generating way too much power, it self starts to damage it self, pls take care of that",
 "size": 5,
 "health":8000,
 "powerProduction": 1000,
