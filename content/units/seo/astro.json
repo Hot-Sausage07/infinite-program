@@ -29,7 +29,7 @@
       "shootCone": 45,
       "bullet": {
         "type": "LaserBulletType",
-        "damage": 60,
+        "damage": 100,
         "frontColor": "42d4f5",
                "backColor": "5366a6",
         "length":150
@@ -52,10 +52,10 @@
       "shootCone": 45,
       "bullet": {
         "type": "LightningBulletType",
-        "damage": 10,
+        "damage": 80,
         "frontColor": "42d4f5",
                "backColor": "5366a6",
-        "lightning": 1,
+        "lightning": 4,
          "lightningLength": 16
       }
     }

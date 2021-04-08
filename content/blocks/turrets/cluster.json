@@ -19,7 +19,7 @@
 	"ammoTypes":	{
 		"onisunium": {
 			"type" : "railBulletType",
-			"damage": 800,
+			"damage": 1100,
 			"length" : 400,
 			"ammoMultiplier": 3,
 			"pierce": true,
@@ -49,7 +49,9 @@
 		{ "item": "silicon", "amount": 1000 },
 		{ "item": "surge-alloy", "amount": 290 },
 		{ "item": "metaglass", "amount": 500 },
-		{ "item": "onisunium", "amount": 500 }
+		{ "item": "onisunium", "amount": 500 },
+		{ "item": "copper", "amount": 500 },
+		{ "item": "lead", "amount": 500 }
 	],
 	"category": "turret",
 	"research": "foreshadow"

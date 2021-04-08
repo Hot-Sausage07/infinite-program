@@ -29,11 +29,11 @@
       "shootCone": 45,
       "bullet": {
         "type": "LightningBulletType",
-        "damage": 6,
+        "damage": 14,
         "frontColor": "42d4f5",
                "backColor": "5366a6",
-        "lightning": 1,
-         "lightningLength": 10
+        "lightning": 2,
+         "lightningLength": 20
       }
     }
   ]

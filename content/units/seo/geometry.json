@@ -28,12 +28,12 @@
       "shootSound": "spark",
       "shootCone": 45,
       "bullet": {
-        "type": "LaserBulletType",
-        "damage": 50,
+        "type": "ContinuousLaserBulletType",
+        "damage": 100,
         "frontColor": "42d4f5",
                "backColor": "5366a6",
         "length":180,
-        "width":10
+        "width":30
       }
     }
   ]

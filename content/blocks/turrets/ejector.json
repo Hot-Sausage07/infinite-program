@@ -23,7 +23,7 @@
             "speed": 2.4,
             "type":"ArtilleryBulletType",
             "lifetime": 800,
-            "damage": 100,
+            "damage": 600,
             "splashDamage" : 50,
             "splashDamageRadius" : 50,	
             "collides": true,
