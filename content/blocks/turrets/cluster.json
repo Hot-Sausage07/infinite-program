@@ -19,7 +19,7 @@
 	"ammoTypes":	{
 		"onisunium": {
 			"type" : "railBulletType",
-			"damage": 1100,
+			"damage": 1500,
 			"length" : 400,
 			"ammoMultiplier": 3,
 			"pierce": true,

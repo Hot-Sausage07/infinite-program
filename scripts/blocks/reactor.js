@@ -42,7 +42,7 @@ FusionReactor.buildType = ent => {
         var n = this.productionEfficiency  != 0 ? this.productionEfficiency * this.productionEfficiency * 2 : 1;
         var Timer = 50 -( n * this.warmup + this.warmup * this.productionEfficiency * 10) * 10
         if(Mathf.sin(Time.time,Timer,0.1) > 0){
-          Lightning.create(Team.get(99), Color.cyan,this.warmup + this.warmup  * 10  * n * n, this.x + Mathf.range(2.5), this.y + Mathf.range(2.5), Mathf.random(0.0, 360.0), 3+this.warmup + this.warmup  * 10);
+          Lightning.create(Team.get(99), Color.cyan,this.warmup + this.warmup  * 10  * n * n, this.x + Mathf.range(1), this.y + Mathf.range(1), Mathf.random(0.0, 360.0), 3+this.warmup + this.warmup  * 10);
         }
       }
     }
