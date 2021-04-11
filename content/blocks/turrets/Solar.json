@@ -14,7 +14,7 @@
   "inaccuracy": 0,
   "rotateSpeed": 3,
   "recoilAmount": 1,
-  "powerUse": 350,
+  "powerUse": 100,
   "hasPower": true,
   "targetAir": true,
   "shootSound": "laser",
