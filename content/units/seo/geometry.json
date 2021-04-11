@@ -28,14 +28,14 @@
       "shootSound": "spark",
       "shootCone": 45,
       "continuous": true,
-      "lifetime": 60,
       "bullet": {
         "type": "ContinuousLaserBulletType",
+        "lifetime": 60,
         "damage": 100,
         "frontColor": "42d4f5",
                "backColor": "5366a6",
         "length":180,
-        "width":30
+        "width":10
       }
     }
   ]
