@@ -32,8 +32,8 @@
         "damage": 14,
         "frontColor": "42d4f5",
                "backColor": "5366a6",
-        "lightning": 2,
-         "lightningLength": 20
+        "lightning": 4,
+         "lightningLength": 16
       }
     }
   ]

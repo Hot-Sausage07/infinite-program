@@ -27,6 +27,8 @@
       "shots": 2,
       "shootSound": "spark",
       "shootCone": 45,
+      "continuous": true,
+      "lifetime": 60,
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "damage": 100,

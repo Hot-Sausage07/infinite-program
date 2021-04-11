@@ -13,8 +13,8 @@
   "accel": 1,
   "weapons": [
     {
-      "name": "long-lancer",
-      "reload": 120,
+      "name": "sword-small",
+      "reload": 100,
       "top": true,
       "mirror": false,
       "x": 0,
@@ -40,7 +40,7 @@
       "reload": 38,
       "top": true,
       "mirror": true,
-      "x": 2,
+      "x": 3,
       "y": -1.5,
       "shootY": 2,
       "recoil": 1.5,
@@ -55,7 +55,7 @@
         "damage": 80,
         "frontColor": "42d4f5",
                "backColor": "5366a6",
-        "lightning": 4,
+        "lightning": 8,
          "lightningLength": 16
       }
     }
