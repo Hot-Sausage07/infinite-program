@@ -24,7 +24,7 @@
       "shake": 1,
       "rotateSpeed": 1,
       "rotate": true,
-      "shots": 2,
+      "shots": 1,
       "shootSound": "spark",
       "shootCone": 45,
       "continuous": true,
@@ -32,8 +32,7 @@
         "type": "ContinuousLaserBulletType",
         "lifetime": 60,
         "damage": 100,
-        "frontColor": "42d4f5",
-               "backColor": "5366a6",
+        "colors": ["698bfa", "69bbfa", "69e4fa", "ffffffff"],
         "length":180,
         "width":10
       }
