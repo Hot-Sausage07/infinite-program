@@ -2,7 +2,7 @@
   "localizedName": "Solayyghr",
   "description": "shoots powerful electric beam to enemies",
   "health": 4000,
-  "size": 5,
+  "size": 14,
   "reloadTime": 600,
   "range": 375,
   "shootCone": 30,
