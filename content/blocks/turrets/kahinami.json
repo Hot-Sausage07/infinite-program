@@ -1,7 +1,7 @@
 {
-  "localizedName": "Solayyghr",
-  "description": "shoots powerful electric beam to enemies",
-  "health": 4000,
+  "localizedName": "Kasunmaki",
+  "description": "[purple]The destructive THUNDER is coming",
+  "health": 12000,
   "size": 14,
   "reloadTime": 600,
   "range": 375,

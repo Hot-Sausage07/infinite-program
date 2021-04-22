@@ -13,8 +13,8 @@
   "accel": 1,
   "weapons": [
     {
-      "name": "fast-lancer",
-      "reload": 10,
+      "name": "seo-laser",
+      "reload": 100,
       "top": true,
       "mirror": false,
       "x": 0,
@@ -25,16 +25,16 @@
       "rotateSpeed": 1,
       "rotate": true,
       "shots": 1,
-      "shootSound": "spark",
+      "shootSound": "laserblast",
       "shootCone": 45,
       "continuous": true,
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "lifetime": 60,
-        "damage": 100,
+        "damage": 50,
         "colors": ["698bfa", "69bbfa", "69e4fa", "ffffffff"],
         "length":180,
-        "width":10
+        "width":5
       }
     }
   ]

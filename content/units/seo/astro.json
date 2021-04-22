@@ -13,8 +13,8 @@
   "accel": 1,
   "weapons": [
     {
-      "name": "sword-small",
-      "reload": 100,
+      "name": "seo-lancer",
+      "reload": 150,
       "top": true,
       "mirror": false,
       "x": 0,
@@ -29,34 +29,37 @@
       "shootCone": 45,
       "bullet": {
         "type": "LaserBulletType",
-        "damage": 100,
+        "damage": 200,
         "frontColor": "42d4f5",
                "backColor": "5366a6",
-        "length":150
+        "length":240,
+        "width":30
       }
     },
     {
-      "name": "arc-blaster",
-      "reload": 38,
+      "name": "seo-rapid",
+      "reload": 20,
       "top": true,
       "mirror": true,
       "x": 3,
       "y": -1.5,
       "shootY": 2,
       "recoil": 1.5,
-      "shake": 1,
+      "shake": 0.1,
       "rotateSpeed": 1,
       "rotate": true,
-      "shots": 2,
+      "shots": 1,
       "shootSound": "spark",
       "shootCone": 45,
       "bullet": {
-        "type": "LightningBulletType",
-        "damage": 80,
+        "type": "BasicBulletType",
+        "speed":1,
+        "damage": 50,
         "frontColor": "42d4f5",
                "backColor": "5366a6",
-        "lightning": 8,
-         "lightningLength": 16
+               "length":30,
+               "width":30,
+        "lifetime":50
       }
     }
   ]
