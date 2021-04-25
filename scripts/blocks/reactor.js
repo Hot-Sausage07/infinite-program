@@ -30,7 +30,7 @@ FusionReactor.buildType = ent => {
     Draw.rect(FusionReactor.regionbutton,this.x,this.y)
     //pankiwi :p
     Draw.rect(FusionReactor.rotator,this.x,this.y,this.warmup * (this.warmup * Time.time * 2 * this.warmup) * 20)
-    Draw.rect(FusionReactor.rotator,this.x,this.y,-this.warmup * (this.warmup * Time.time * 2 * this.warmup) * 20)
+//    Draw.rect(FusionReactor.rotator,this.x,this.y,-this.warmup * (this.warmup * Time.time * 2 * this.warmup) * 20)
     /*
     for (var i = 0; i < 10; i++) {
       Draw.color(Pal.accent, Color.orange, i / 5);
