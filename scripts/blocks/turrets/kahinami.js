@@ -66,6 +66,7 @@ kahinami.buildType = ent => {
       return this.power.status > 0 && this.power.status >= 0
     },
     draw() {
+      Draw.rect(kahinami.baseRegion,this.x,this.y)
       var r = Math.floor(this.m)
       let z = Draw.z();
       Draw.z(Layer.turret);
