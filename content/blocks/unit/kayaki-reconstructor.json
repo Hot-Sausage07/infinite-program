@@ -3,8 +3,8 @@
     "name": "Kayaki Reconstructor",
     "size": 9,
     "health": 6000,
-    "description": "maxium units",
-    "constructTime": 7000,
+    "description": "Maximized The Units",
+    "constructTime": 7050,
     "upgrades": [
       [
         "geometry", "xeos"
